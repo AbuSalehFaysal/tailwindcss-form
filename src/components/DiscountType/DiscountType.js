@@ -5,9 +5,17 @@ const DiscountType = () => {
     return (
         <div>
             <h1 className="font-bold text-base">Discount Type</h1>
-            <p>Off</p>
+            <select name="area_limit" id="" className="border border-red-400 rounded focus:outline-none focus:border-red-600">
+                <option value="on">On</option>
+                <option value="off">Off</option>
+            </select>
             <h1 className="font-bold text-base">Collection Time</h1>
-            <p>20 Minutes</p>
+            <select name="area_limit" id="" className="border border-red-400 rounded focus:outline-none focus:border-red-600">
+                <option value="15">15 Minutes</option>
+                <option value="30">30 Minutes</option>
+                <option value="45">45 Minutes</option>
+                <option value="60">60 Minutes</option>
+            </select>
 
             <div className="flex w-full">
                 <label htmlFor="toggleD" className="flex items-center cursor-pointer">

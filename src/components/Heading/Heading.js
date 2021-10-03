@@ -1,7 +1,7 @@
 import React from 'react';
 import Toggle from '../Toggle/Toggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPen } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Heading = () => {
     return (
@@ -12,7 +12,7 @@ const Heading = () => {
                 <label htmlFor="toggle" className="flex items-center cursor-pointer">
                     <Toggle toggleId="toggle"></Toggle>
                     <h1 className="ml-3 mt-2 font-bold text-base text-gray-500">
-                        <FontAwesomeIcon icon={faPen} />
+                        <FontAwesomeIcon icon={faCheck} />
                     </h1>
                 </label>
             </div>
